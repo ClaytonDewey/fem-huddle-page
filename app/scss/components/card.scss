@@ -1,0 +1,6 @@
+@use '../util' as *;
+
+.card {
+  box-shadow: 0 0 rem(5) rem(5) rgba(0, 0, 0, 0.06);
+  border-radius: rem(16);
+}
