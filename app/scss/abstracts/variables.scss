@@ -1,0 +1,55 @@
+@use '../util' as *;
+
+:root {
+  // Colors
+  --clr-primary: hsl(322, 100%, 66%);
+  --clr-light: hsl(193, 100%, 96%);
+  --clr-black: hsl(192, 100%, 9%);
+  --clr-gray: hsl(208, 11%, 55%);
+  --clr-white: #fff;
+
+  // Font-family
+  --ff-sans-body: 'Open Sans', sans-serif;
+  --ff-sans-heading: 'Poppins', sans-serif;
+
+  // Font sizes
+  // TODO: update font sizes to use clamp()
+  // font-size: clamp(1rem, 2.5vw, 2rem);
+  // The clamp() CSS function clamps a middle value within a range of values between a defined minimum bound and a maximum bound. The function takes three parameters: a minimum value, a preferred value, and a maximum allowed value.
+  --fs-h1: #{rem(24)};
+  --fs-body: #{rem(14)};
+
+  --fs-medium: #{rem(12)};
+  --fs-small: #{rem(11.13)};
+  --fs-xsmall: #{rem(10)};
+
+  @include breakpoint(medium) {
+    --fs-h1: #{rem(40)};
+    --fs-body: #{rem(18)};
+  }
+
+  /* 
+    MOBILE
+    heading: 24px - Poppins
+    hero-text: 16px - Open Sans
+    CTA-button: 12px - Open Sans
+    sub-heading: 20px - Poppins
+    body-text: 14px - Open Sans
+    footer-heading: 18px - Poppins
+    CTA-button-footer: 10px - Open Sans
+    footer copyright: 11.13px - Open Sans
+
+    DESKTOP
+    heading: 40px - Poppins
+    hero-text: 18px - Open Sans
+    CTA-button: 14px - Open Sans
+    sub-heading: 28px - Poppins
+    body-text: 18px - Open Sans
+    footer-heading: 32px - Poppins
+    CTA-button-footer: 20px - Open Sans
+    footer text: 14px - Open Sans
+    footer copyright: 12px - Open Sans
+  */
+
+  --transition: all 0.2s ease-in-out;
+}

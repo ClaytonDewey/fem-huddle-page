@@ -1,0 +1,14 @@
+@use '../util' as *;
+
+body {
+  font-family: var(--ff-sans-body);
+  font-weight: 400;
+  font-size: var(--fs-body);
+}
+
+h1 {
+  margin: 0 0 rem(24);
+  font-size: var(--fs-h1);
+  font-weight: 600;
+  line-height: rem(36);
+}
