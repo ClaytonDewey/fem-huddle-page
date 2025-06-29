@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: var(--clr-light);
+  background-color: var(--clr-white);
   color: var(--clr-black);
 }
 
@@ -23,6 +23,11 @@ body {
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
+}
+
+main {
+  // TODO: update padding to match design
+  padding: rem(80) rem(40);
 }
 
 .sr-only {
