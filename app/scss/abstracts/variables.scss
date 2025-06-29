@@ -23,6 +23,8 @@
   --fs-small: #{rem(11.13)};
   --fs-xsmall: #{rem(10)};
 
+  --transition: all 0.2s ease-in-out;
+
   @include breakpoint(medium) {
     --fs-h1: #{rem(40)};
     --fs-body: #{rem(18)};
@@ -50,6 +52,4 @@
     footer text: 14px - Open Sans
     footer copyright: 12px - Open Sans
   */
-
-  --transition: all 0.2s ease-in-out;
 }
