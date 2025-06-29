@@ -1,17 +1,24 @@
 @use '../util' as *;
 
 .card {
-  box-shadow: 0 0 rem(5) rem(5) rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 rem(15) rem(3) rgba(0, 0, 0, 0.04);
   border-radius: rem(16);
   margin-bottom: rem(40);
-  padding: rem(24) rem(40);
+  padding: rem(24) rem(40) rem(33);
 
   &__img {
-    margin-bottom: rem(24);
+    height: rem(255);
+    width: rem(255);
+    margin-bottom: rem(30);
+    padding: rem(32) rem(10) rem(30);
   }
 
   &__body {
     text-align: center;
     line-height: rem(21);
+
+    p {
+      color: var(--clr-gray);
+    }
   }
 }
