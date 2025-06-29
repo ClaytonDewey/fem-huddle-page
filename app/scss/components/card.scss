@@ -3,4 +3,15 @@
 .card {
   box-shadow: 0 0 rem(5) rem(5) rgba(0, 0, 0, 0.06);
   border-radius: rem(16);
+  margin-bottom: rem(40);
+  padding: rem(24) rem(40);
+
+  &__img {
+    margin-bottom: rem(24);
+  }
+
+  &__body {
+    text-align: center;
+    line-height: rem(21);
+  }
 }
