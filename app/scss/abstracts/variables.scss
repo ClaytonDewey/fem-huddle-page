@@ -17,6 +17,7 @@
   // font-size: clamp(1rem, 2.5vw, 2rem);
   // The clamp() CSS function clamps a middle value within a range of values between a defined minimum bound and a maximum bound. The function takes three parameters: a minimum value, a preferred value, and a maximum allowed value.
   --fs-h1: #{rem(24)};
+  --fs-h2: #{rem(20)};
   --fs-body: #{rem(14)};
 
   --fs-medium: #{rem(12)};
@@ -27,6 +28,7 @@
 
   @include breakpoint(medium) {
     --fs-h1: #{rem(40)};
+    --fs-h2: #{rem(28)};
     --fs-body: #{rem(18)};
   }
 
