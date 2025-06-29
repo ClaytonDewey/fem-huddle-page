@@ -6,9 +6,18 @@ body {
   font-size: var(--fs-body);
 }
 
+// prettier-ignore
+h1, h2 {
+  font-weight: 600;
+}
+
 h1 {
   margin: 0 0 rem(24);
   font-size: var(--fs-h1);
-  font-weight: 600;
   line-height: rem(36);
+}
+
+h2 {
+  margin: 0 0 rem(16);
+  font-size: var(--fs-h2);
 }
