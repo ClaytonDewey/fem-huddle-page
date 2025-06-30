@@ -1,6 +1,8 @@
 @use '../util' as *;
 
 .card {
+  background-color: var(--clr-white);
+  color: var(--clr-black);
   box-shadow: 0 0 rem(15) rem(3) rgba(0, 0, 0, 0.04);
   border-radius: rem(16);
   margin-bottom: rem(40);
@@ -15,10 +17,33 @@
 
   &__body {
     text-align: center;
-    line-height: rem(21);
 
     p {
+      line-height: rem(21);
       color: var(--clr-gray);
     }
+  }
+
+  &.cta {
+    padding: rem(41) rem(12);
+    height: rem(176);
+    // position: absolute;
+
+    h2 {
+      margin: 0;
+      margin-bottom: rem(24);
+    }
+
+    .btn.btn-primary {
+      margin: 0;
+    }
+  }
+
+  &__wrapper {
+    position: absolute;
+    top: rem(-100);
+    left: 0;
+    right: 0;
+    padding-inline: rem(12);
   }
 }
