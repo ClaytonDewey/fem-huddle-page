@@ -1,0 +1,12 @@
+@use '../util' as *;
+
+.footer {
+  background-color: var(--clr-black);
+  color: var(--clr-light);
+  position: relative;
+  padding-top: rem(80);
+}
+
+.footer-logo {
+  fill: var(--clr-light);
+}
