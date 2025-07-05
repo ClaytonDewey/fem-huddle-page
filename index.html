@@ -12,20 +12,9 @@
     rel="stylesheet">
   <link rel="stylesheet" href="dist/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <script src="https://kit.fontawesome.com/02cc959292.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
@@ -112,20 +101,24 @@
     <img src="./images/logo-footer.svg" alt="" class="footer__logo">
 
     <div class="footer__body">
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua
-        +1-543-123-4567
-        example@huddle.com
+      <div class="footer__info">
+        <p class="footer__info-location">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua
+        </p>
+
+        <p class="footer__info-phone"><a href="tel:+15431234567">+1-543-123-4567</a></p>
+
+        <p class="footer__info-email"><a href="mailto:example@huddle.com">example@huddle.com</a></p>
       </div>
 
-      <ul>
+      <ul class="footer__links">
         <li><a href="/">About Us</a></li>
         <li><a href="/">What We Do</a></li>
         <li><a href="/">FAQ</a></li>
       </ul>
 
-      <ul>
+      <ul class="footer__links">
         <li><a href="/">Career</a></li>
         <li><a href="/">Blog</a></li>
         <li><a href="/">Contact Us</a></li>
@@ -133,11 +126,29 @@
 
       <div>
         <ul class="footer__socials">
-          <li><a href="/" class="footer__socials-link">link 1</a></li>
-          <li><a href="/" class="footer__socials-link">link 2</a></li>
-          <li><a href="/" class="footer__socials-link">link 3</a></li>
+          <li>
+            <a href="/" class="footer__socials-link">
+              <i class="fa-brands fa-facebook-f"></i>
+              <div class="sr-only">Follow us on Facebook</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="/" class="footer__socials-link">
+              <i class="fa-brands fa-twitter"></i>
+              <div class="sr-only">Follow us on Twitter</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="/" class="footer__socials-link">
+              <i class="fa-brands fa-instagram"></i>
+              <div class="sr-only">Follow us on Instagram</div>
+            </a>
+          </li>
         </ul>
-        &copy; Copyright 2018 Huddle. All rights reserved.
+
+        <p class="copyright">&copy; Copyright 2018 Huddle. All rights reserved.</p>
       </div>
     </div>
 
