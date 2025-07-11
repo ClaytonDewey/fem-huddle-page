@@ -24,6 +24,11 @@
     font-size: var(--fs-medium);
     margin: rem(35) auto rem(55);
 
+    &:hover {
+      // TODO: create color variable
+      background-color: #ff9adb;
+    }
+
     @include breakpoint(medium) {
       width: rem(280);
       height: rem(56);
